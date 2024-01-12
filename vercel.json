@@ -3,6 +3,6 @@
         "api/*.php": { runtime: "vercel-php-runtime@0.1.0" }
     },
     "routes": [
-        { src: "/(.*)", dest: "/api/index.php" }
+        { src: "/.*", dest: "/api/index.php" }
     ]
 }
