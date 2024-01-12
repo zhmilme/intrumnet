@@ -7,7 +7,7 @@
       $url='http://trial.intrumnet.com:81/sharedapi/worker/filter';  
   
       $params=array(  
-                'division_id'=>14);    
+                'division_id'=>$_GET["id"]);    
                 //'name'=>'Ivan');    
 
       
