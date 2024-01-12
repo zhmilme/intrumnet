@@ -1,8 +1,6 @@
 <?php 
- 
-           
+          
       //$url    = 'http://trial.intrumnet.com:81/sharedapi/worker/fields';  
- 
       
       $post = array(  
         'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
@@ -27,4 +25,5 @@
       $result = json_decode(curl_exec($ch));  
       curl_close ($ch);  
       var_dump($result);
+
 ?> 
