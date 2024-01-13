@@ -25,7 +25,7 @@
       $result = json_decode(curl_exec($ch), true); 
       //var_dump(json_encode(curl_exec($ch)=>data));
       curl_close ($ch);  
-      var_dump($result["data"][6]["fields"][3250]["value"]);
+      var_dump($result["data"][$_GET["id"]]["fields"][3250]["value"]);
 
 
 ?> 
