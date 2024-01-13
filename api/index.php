@@ -22,8 +22,10 @@
       curl_setopt($ch, CURLOPT_POST, 1);  
       curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post));  
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  
-      $result = json_decode(curl_exec($ch));  
+      $result = json_decode(curl_exec($ch)); 
+      var_dump(curl_exec($ch));
       curl_close ($ch);  
-      var_dump($result);
+      //var_dump($result);
+
 
 ?> 
