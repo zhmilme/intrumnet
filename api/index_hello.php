@@ -7,14 +7,14 @@
           'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
       $url='http://trial.intrumnet.com:81/sharedapi/worker/fields';  
   
-      //$params=array(  
-                //'id'=>$_GET["id"]);    
+      $params=array(  
+                'id'=>$_GET["id"]);    
                 //'name'=>'Ivan');    
 
       
       $post = array(  
         'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a"  
-        //'params'=>$params  
+        'params'=>$params  
       );  
           
       $ch = curl_init();  
