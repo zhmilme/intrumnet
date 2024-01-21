@@ -24,6 +24,7 @@
       curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post));  
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  
       $result = json_decode(curl_exec($ch), true); 
+      echo(is_null($cOTLdata));
       //var_dump($result);
       //var_dump(json_encode(curl_exec($ch)=>data));
       curl_close ($ch);  
