@@ -5,7 +5,7 @@
       $post = array(  
         //'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");  
           'apikey' =>"1f64ddc5d1fb0679c5fd1221ee738685");  
-      $url='https://aires.astoria-tula.ru:81/sharedapi/worker/filter';  
+      $url='https://trial.intrumnet.com:81/sharedapi/worker/filter';  
   
       $params=array(  
                 'id'=>$_GET["id"]);    
@@ -13,7 +13,7 @@
 
       
       $post = array(  
-        'apikey' =>"1f64ddc5d1fb0679c5fd1221ee738685",  
+        'apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a",  
         'params'=>$params  
       );  
           
