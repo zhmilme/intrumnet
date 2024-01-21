@@ -24,7 +24,8 @@
       curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post));  
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);  
       $result = json_decode(curl_exec($ch), true); 
-      //var_dump(json_encode(curl_exec($ch)=>data));
+      var_dump($result);
+      var_dump(json_encode(curl_exec($ch)=>data));
       curl_close ($ch);  
       var_dump($result);
       var_dump($result["data"][$_GET["id"]]["fields"][3250]["value"]);
