@@ -26,7 +26,7 @@
       $result = json_decode(curl_exec($ch));  
       //var_dump(json_encode(curl_exec($ch)=>data));
       curl_close ($ch);  
-      //var_dump($result);
+      var_dump($result);
 
       echo ('\n \n');
       $post = array(  
