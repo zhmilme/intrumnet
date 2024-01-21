@@ -60,7 +60,7 @@
       //var_dump($json["data"]);
       //var_dump($encoded["data"]); 
       var_dump($result["data"][$_GET["id"]]["fields"]);
-      var_dump($result["data"][$_GET["id"]]["fields"][3250]["value"]);
+      var_dump($result["data"][$_GET["id"]]["fields"][3644]["value"]);
 
 
 
