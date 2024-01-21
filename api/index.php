@@ -57,7 +57,7 @@
       curl_close ($ch);  
       //var_dump($json["data"]);
       //var_dump($encoded["data"]); 
-      var_dump($result["data"][$_GET["id"]]["fields"][3644]);
+      var_dump($result["data"][$_GET["id"]]["fields"][9502062]);
       var_dump($result["data"][$_GET["id"]]["fields"][2397]);
       //var_dump($result["data"][$_GET["id"]]["fields"][11]["value"]);
 ?> 
