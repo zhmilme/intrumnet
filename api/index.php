@@ -7,8 +7,8 @@
           'apikey' =>"1f64ddc5d1fb0679c5fd1221ee738685");  
       $url='https://aires.astoria-tula.ru:81/sharedapi/worker/fields';  
   
-      $params=array(  
-                'id'=>$_GET["id"]);    
+      //$params=array(  
+                //'id'=>$_GET["id"]);    
                 //'name'=>'Ivan');    
 
       
