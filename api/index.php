@@ -1,6 +1,6 @@
     <?php 
         function makeRequest() {
-            echo "Making request";
+            //echo "Making request";
             $url='https://aires.astoria-tula.ru/sharedapi/worker/filter';  
             $post = array('apikey' =>"1f64ddc5d1fb0679c5fd1221ee738685");
           
