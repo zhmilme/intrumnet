@@ -27,6 +27,6 @@
             //$FILE = fopen("./time.txt","w");
             //fputs($FILE,time());
             //var_dump($response);
-            var_dump($response["data"][$_GET["id"]]["fields"][3250]["value"]);
+            var_dump($response["data"][$_GET["id"]]["fields"][3644]["value"]);
       }
     ?> 
