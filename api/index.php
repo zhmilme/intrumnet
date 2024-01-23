@@ -1,8 +1,8 @@
     <?php 
         function makeRequest() {
             //echo "Making request";
-            //$url='https://aires.astoria-tula.ru/sharedapi/worker/filter';  
-            //$post = array('apikey' =>"1f64ddc5d1fb0679c5fd1221ee738685");
+            $url='https://aires.astoria-tula.ru/sharedapi/worker/filter';  
+            $post = array('apikey' =>"1f64ddc5d1fb0679c5fd1221ee738685");
             $url='https://trial.intrumnet.com/sharedapi/worker/filter'; 
             $post = array('apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");
             $ch = curl_init();  
