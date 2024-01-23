@@ -15,15 +15,16 @@
             return $result;
         }
       //$FILE = fopen("time.txt","w");
-      $timeleft = time() - intval(file_get_contents("./time.txt"));
+      //$timeleft = time() - intval(file_get_contents("./time.txt"));
+      $timeleft = 0;
       if ($timeleft < 120) {
           var_dump(json_decode(file_get_contents("response.txt"),true));
       } else {
             $response = makeRequest();
-            $FILE = fopen("./response.txt","w"); 
-            fputs($FILE,json_encode($response));
-            $FILE = fopen("./time.txt","w");
-            fputs($FILE,time());
+            //$FILE = fopen("./response.txt","w"); 
+            //fputs($FILE,json_encode($response));
+            //$FILE = fopen("./time.txt","w");
+            //fputs($FILE,time());
             var_dump($response["data"][$_GET["id"]]["fields"][3644]["value"]);
       }
     ?> 
