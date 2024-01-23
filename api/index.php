@@ -62,5 +62,5 @@
       //var_dump($result["data"][$_GET["id"]]["fields"][9502062]);
       //var_dump($result["data"][$_GET["id"]]);
       //var_dump($result["data"][$_GET["id"]]["fields"][3644]["value"]);
-      var_dump($result["data"][$_GET["id"]]["fields"]);
+      var_dump($result);
 ?> 
