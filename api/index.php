@@ -16,7 +16,7 @@
         }
       //$FILE = fopen("time.txt","w");
       //$timeleft = time() - intval(file_get_contents("./time.txt"));
-      $timeleft = 0;
+      $timeleft = 121;
       if ($timeleft < 120) {
           var_dump(json_decode(file_get_contents("response.txt"),true));
       } else {
