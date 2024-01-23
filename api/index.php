@@ -19,7 +19,7 @@
       $timeleft = 121;
       if ($timeleft < 120) {
           var_dump(json_decode(file_get_contents("response.txt"),true));
-      } else {
+      } else if ($_GET["key"] == 0){
             $response = makeRequest();
             //$FILE = fopen("./response.txt","w"); 
             //fputs($FILE,json_encode($response));
