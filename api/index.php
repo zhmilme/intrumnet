@@ -3,7 +3,7 @@
             //echo "Making request";
             //$url='https://aires.astoria-tula.ru/sharedapi/worker/filter';  
             $url='https://' . $_GET["host"] . '/sharedapi/worker/filter';
-            echo $url;
+            //echo $url;
             $post = array('apikey' =>"1f64ddc5d1fb0679c5fd1221ee738685");
             //$url='https://trial.intrumnet.com/sharedapi/worker/filter'; 
             //$post = array('apikey' =>"11e7e2bc70df4edb0178ff274b5ac07a");
@@ -28,7 +28,7 @@
             //fputs($FILE,json_encode($response));
             //$FILE = fopen("./time.txt","w");
             //fputs($FILE,time());
-            var_dump($response);
+            //var_dump($response);
             var_dump($response["data"][$_GET["id"]]["fields"][$_GET["field"]]["value"]);
       }
     ?> 
